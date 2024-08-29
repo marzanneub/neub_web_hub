@@ -1,0 +1,229 @@
+/* Basic resets */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Upper Buttons */
+.upper_buttons {
+    background-color: #2ECC71;
+    padding: 15px 0;
+	
+}
+
+.upper_buttons a {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #82E0AA; /* Light Green background */
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.upper_buttons a:hover {
+    background-color: #2ECC71; /* Darker Green background on hover */
+}
+
+/* Profile Information Section */
+.informations {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.informations img {
+    border-radius: 50%;
+    border: 5px solid #2ECC71;
+    margin-bottom: 15px;
+}
+
+.informations p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #82E0AA; /* Light Green background */
+    color: #ffffff; /* White text */
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}
+
+.buttons a:hover {
+    background-color: #2ECC71; /* Darker Green background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Section Topics */
+.topic {
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+.topic h2 {
+    font-size: 24px;
+    color: #2ECC71;
+    border-bottom: 3px solid #2ECC71;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.table-style th, .table-style td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.table-style th {
+    background-color: #2ECC71;
+    color: #ffffff;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-style a {
+    color: white;
+}
+
+/* Form Container */
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto; /* Center the form horizontally */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form h3 {
+    margin-bottom: 20px;
+    color: #2ECC71;
+    font-size: 24px;
+    border-bottom: 2px solid #2ECC71;
+    padding-bottom: 10px;
+    text-align: center; /* Center the heading text */
+}
+
+/* Form Elements */
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements */
+}
+
+.form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #82E0AA; /* Light Green background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #2ECC71; /* Darker Green background on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .form h3 {
+        font-size: 20px;
+    }
+
+    .form select, .form button {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+/* Message Container */
+.message {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the message horizontally */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color */
+    font-size: 16px;
+    text-align: center; /* Center the message text */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #2ECC71; /* Green border on the left */
+}
+
+/* Success Message */
+.message.success {
+    background-color: #eaffea; /* Light green background */
+    color: #2ECC71; /* Dark green text */
+    border-left-color: #2ECC71; /* Dark green border on the left */
+}
+
+/* Error Message */
+.message.error {
+    background-color: #ffeaea; /* Light red background */
+    color: #e74c3c; /* Dark red text */
+    border-left-color: #e74c3c; /* Dark red border on the left */
+}
+
+/* Information Message */
+.message.info {
+    background-color: #eaf4ff; /* Light blue background */
+    color: #3498db; /* Dark blue text */
+    border-left-color: #3498db; /* Dark blue border on the left */
+}

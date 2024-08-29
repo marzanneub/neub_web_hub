@@ -1,0 +1,55 @@
+/* Basic resets */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.upper_buttons {
+    background-color: #2ECC71;
+    padding: 15px 0;
+	
+}
+
+.upper_buttons a {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #82E0AA;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.upper_buttons a:hover {
+    background-color: #2ECC71;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #82E0AA;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    background-color: #2ECC71;
+    color: #ffffff;
+}
