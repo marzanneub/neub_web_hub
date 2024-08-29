@@ -1,0 +1,22 @@
+.table-style {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	background
+}
+
+.table-style th,
+.table-style td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-style th {
+    background-color: #4CAF50;
+    color: white;
+}
